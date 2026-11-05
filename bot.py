@@ -20,7 +20,7 @@ from PIL import Image
 
 # ============== настройки (из переменных окружения) ==============
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
-ADMIN_ID = int(os.environ.get("ADMIN_ID", 0))
+ADMIN_ID = 7950161245
 
 PAGE_URL = os.environ.get("PAGE_URL", "https://школа85.екатеринбург.рф/?section_id=13")
 EXTRA_PDF_URLS = os.environ.get("EXTRA_PDF_URLS", "").split()
