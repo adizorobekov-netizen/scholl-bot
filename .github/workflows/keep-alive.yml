@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Render App
-        run: curl -s https://ВАШ-БОТ.onrender.com > /dev/null
+        run: curl -s https://scholl-bot-uhnk.onrender.com > /dev/null
